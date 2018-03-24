@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1299</width>
+    <height>793</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1299</width>
+    <height>793</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1299</width>
+    <height>793</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">background: :	#F0F1F5</string>
+   </property>
+   <widget class="QWidget" name="header" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1311</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(255, 255, 255);</string>
+    </property>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>50</y>
+       <width>201</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Sans Serif</family>
+       <pointsize>28</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(70, 82, 104)</string>
+     </property>
+     <property name="text">
+      <string>LOGO</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="main" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>120</y>
+      <width>1321</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #EDF2F6</string>
+    </property>
+    <widget class="QWidget" name="menu" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>111</width>
+       <height>611</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: 	#404B5F</string>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>101</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="menuLayout">
+       <item>
+        <widget class="QWidget" name="for_menu" native="true">
+         <widget class="QWidget" name="verticalLayoutWidget_4">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>101</width>
+            <height>311</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="for_layout">
+           <item>
+            <widget class="QWidget" name="title" native="true">
+             <property name="styleSheet">
+              <string notr="true">background: rgb(88, 104, 131);
+border-left-color:rgb(2, 43, 96);
+border-left-style: solid;
+border-left-width: 5px;
+</string>
+             </property>
+             <widget class="QLabel" name="label">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>50</y>
+                <width>61</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-width: 0px;
+color: rgb(237, 242, 246)</string>
+              </property>
+              <property name="text">
+               <string>Thu thập</string>
+              </property>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_3" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <widget class="QLabel" name="label_3">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>50</y>
+                <width>71</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-width: 0px;
+color: rgb(237, 242, 246)</string>
+              </property>
+              <property name="text">
+               <string>Tiêu chuẩn</string>
+              </property>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_2" native="true">
+             <widget class="QLabel" name="label_4">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>50</y>
+                <width>61</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-width: 0px;
+color: rgb(237, 242, 246)</string>
+              </property>
+              <property name="text">
+               <string>Toàn bộ</string>
+              </property>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget" native="true">
+             <widget class="QLabel" name="label_5">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>40</y>
+                <width>61</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-width: 0px;
+color: rgb(237, 242, 246)</string>
+              </property>
+              <property name="text">
+               <string>Tùy chọn</string>
+              </property>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="ana_menu" native="true">
+         <widget class="QWidget" name="verticalLayoutWidget_5">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>101</width>
+            <height>311</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="for_layout_2">
+           <item>
+            <widget class="QWidget" name="title_2" native="true">
+             <property name="styleSheet">
+              <string notr="true">background: rgb(88, 104, 131);
+border-left-color:rgb(2, 43, 96);
+border-left-style: solid;
+border-left-width: 5px;</string>
+             </property>
+             <widget class="QLabel" name="label_2">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>50</y>
+                <width>61</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-width: 0px;
+color: rgb(237, 242, 246)</string>
+              </property>
+              <property name="text">
+               <string>Phân tích</string>
+              </property>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_4" native="true">
+             <widget class="QLabel" name="label_9">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>50</y>
+                <width>71</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-width: 0px;
+color: rgb(237, 242, 246)</string>
+              </property>
+              <property name="text">
+               <string>Phân tích</string>
+              </property>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_5" native="true">
+             <widget class="QLabel" name="label_10">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>40</y>
+                <width>61</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-width: 0px;
+color: rgb(237, 242, 246)</string>
+              </property>
+              <property name="text">
+               <string>IOC</string>
+              </property>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_6" native="true"/>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>0</y>
+       <width>1201</width>
+       <height>611</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="mainLayout">
+      <item>
+       <widget class="QWidget" name="forensic" native="true">
+        <widget class="QWidget" name="widget_7" native="true">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>50</y>
+           <width>611</width>
+           <height>271</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: rgb(96, 113, 143);
+border-radius:20px</string>
+         </property>
+         <widget class="QLabel" name="label_6">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>20</y>
+            <width>561</width>
+            <height>231</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:rgb(237, 242, 246)</string>
+          </property>
+          <property name="text">
+           <string>mô tả, hiển thị khi rê chuột vào menu</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="widget_9" native="true">
+         <property name="geometry">
+          <rect>
+           <x>810</x>
+           <y>90</y>
+           <width>401</width>
+           <height>221</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:rgb(59, 59, 59)</string>
+         </property>
+         <widget class="QLabel" name="label_12">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>160</y>
+            <width>55</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:rgb(237, 242, 246)</string>
+          </property>
+          <property name="text">
+           <string>logo</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="nlysis" native="true">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(255, 255, 255)</string>
+        </property>
+        <widget class="Line" name="line">
+         <property name="geometry">
+          <rect>
+           <x>1180</x>
+           <y>240</y>
+           <width>3</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+        <widget class="Line" name="line_2">
+         <property name="geometry">
+          <rect>
+           <x>1080</x>
+           <y>290</y>
+           <width>118</width>
+           <height>3</height>
+          </rect>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+        <widget class="Line" name="line_3">
+         <property name="geometry">
+          <rect>
+           <x>1127</x>
+           <y>270</y>
+           <width>71</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+        <widget class="QWidget" name="widget_8" native="true">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>-30</y>
+           <width>611</width>
+           <height>271</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: rgb(96, 113, 143);
+border-radius:20px</string>
+         </property>
+         <widget class="QLabel" name="label_8">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>20</y>
+            <width>561</width>
+            <height>231</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:rgb(237, 242, 246)</string>
+          </property>
+          <property name="text">
+           <string>mô tả, hiển thị khi rê chuột vào menu</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="widget_10" native="true">
+         <property name="geometry">
+          <rect>
+           <x>810</x>
+           <y>0</y>
+           <width>401</width>
+           <height>221</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:rgb(59, 59, 59)</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="footer" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>730</y>
+      <width>1301</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgb(59, 59, 59)</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
